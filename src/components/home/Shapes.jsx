@@ -43,6 +43,10 @@ const Shapes = () => {
             <svg class="shape s10" width="100" height="100">
                 <circle cx="5" cy="10" r="10" stroke="#feca57" stroke-width="2" fill="rgba(255, 99, 71, 0)" />
             </svg>
+
+            <svg class="shape s11" height="60" width="200">
+                <text x="0" y="15" fill="#f9ca24" transform="rotate(30 20,40)">w</text>
+            </svg>
             
 
         </div>
