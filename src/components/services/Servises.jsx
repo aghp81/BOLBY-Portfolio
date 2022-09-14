@@ -29,7 +29,22 @@ const data = [
 
 const Services = () => {
     return (
-        <div>Services</div>
+        <section className="services container section" id="services">
+            <h2 className="section__title">Services</h2>
+
+            <div className="services__container grid">
+                {data.map(({id, image, title, description}) => {
+                    return (
+                        <div className="services__card" key={id}>
+                            <img width="80" height="80" src={image} alt="" className="services__img" />
+
+                            <h3 className="services__title">{title}</h3>
+                            <p className="services__description">{description}</p>
+                        </div>
+                    );
+                })}
+            </div>
+        </section>
     )
 }
 
