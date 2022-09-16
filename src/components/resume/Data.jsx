@@ -26,7 +26,7 @@ const Data = [
     {
         id: 4,
         category: "experience",
-        icon: "icon-briefaces",
+        icon: "icon-briefcase",
         year: "2019 - present",
         title: "Web Designer",
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam excepturi in debitis nisi cupiditate maiores culpa dicta illum suscipit officia.",
@@ -34,7 +34,7 @@ const Data = [
     {
         id: 5,
         category: "experience",
-        icon: "icon-briefaces",
+        icon: "icon-briefcase",
         year: "2013 - 2017",
         title: "Front-End Developer",
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam excepturi in debitis nisi cupiditate maiores culpa dicta illum suscipit officia.",
@@ -42,7 +42,7 @@ const Data = [
     {
         id: 4,
         category: "experience",
-        icon: "icon-briefaces",
+        icon: "icon-briefcase",
         year: "2019 - present",
         title: "Back-End Developer",
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam excepturi in debitis nisi cupiditate maiores culpa dicta illum suscipit officia.",
