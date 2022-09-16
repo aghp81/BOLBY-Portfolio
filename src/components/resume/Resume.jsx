@@ -24,9 +24,8 @@ const Resume = () => {
                         }
                     })}
                 </div>
-            </div>
             
-            <div className="resume__container grid">
+            
                 <div className="timeline grid">
                     {Data.map((val, index) => {
                         if (val.category === "experience") {
@@ -42,6 +41,7 @@ const Resume = () => {
                         }
                     })}
                 </div>
+                
             </div>
 
         </section>
