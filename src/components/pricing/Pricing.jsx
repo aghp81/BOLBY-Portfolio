@@ -22,7 +22,8 @@ const Pricing = () => {
                     <a href="" className="btn">Get Started</a>
                 </div>
 
-                <div className="pricing__item">
+                <div className="pricing__item best">
+                    <span className="badge">Recomended</span>
                     <img src={Image2} width="70" height="70" alt="" className="pricing__img" />
                     <h3 className="pricing__plan">Premium</h3>
                     <p className="pricing__title">Unlimited product including app integration and more features</p>
