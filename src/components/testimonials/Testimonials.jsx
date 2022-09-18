@@ -3,9 +3,13 @@ import "./testimonials.css";
 import Image1 from "../../assets/avatar-1.svg";
 import Image3 from "../../assets/avatar-2.svg";
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import {  Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 
 const data = [
