@@ -37,14 +37,14 @@ const Testimonials = () => {
             <Swiper className="testimonials__container grid">
                 {data.map(({id, image, title, subtitle, comment}) => {
                     return (
-                        <div className="testimonial__item" key={id}>
+                        <SwiperSlide className="testimonial__item" key={id}>
                             <div className="thumb">
                                 <img width="100" height="100" src={image} alt="" />
                             </div>
                             <h3 className="testimonials__title">{title}</h3>
                             <span className="subtitle">{subtitle}</span>
                             <div className="comment">{comment}</div>
-                        </div>
+                        </SwiperSlide>
                     )
                 } )}
             </Swiper>
