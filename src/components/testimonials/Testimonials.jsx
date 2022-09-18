@@ -34,7 +34,13 @@ const Testimonials = () => {
         <section className="testimonials container section">
             <h2 className="section__title">Clients & Reviews</h2>
 
-            <Swiper className="testimonials__container grid">
+            <Swiper className="testimonials__container grid"
+            // install Swiper modules
+            modules={[ Pagination ]}
+            spaceBetween={30}
+            slidesPerView={1}
+            pagination={{ clickable: true }}
+            >
                 {data.map(({id, image, title, subtitle, comment}) => {
                     return (
                         <SwiperSlide className="testimonial__item" key={id}>
