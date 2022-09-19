@@ -27,7 +27,7 @@ const Contact = () => {
                     <input type="text" className="contact__form-input" placeholder="Insert your subject" />
                 </div>
 
-                <div className="contact__form-div">
+                <div className="contact__form-div contact__form-area">
                     <textarea name="" id="" cols="30" rows="10" className="contact__form-input" placeholder="Write your message"></textarea>
                 </div>
 
